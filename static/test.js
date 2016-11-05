@@ -19,7 +19,8 @@ $(function(){
             'onMenuShareAppMessage',
             'onMenuShareQQ',
             'onMenuShareWeibo',
-            'onGetNetWorkType'
+            'onGetNetWorkType',
+            'onGetLocation'
 		].join(",")
 	},function(resp){
 		wx.config({
